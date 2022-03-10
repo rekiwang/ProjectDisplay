@@ -20,7 +20,7 @@ body {
 	--background-color-3: #202692;
 	--link-color: #03b9f1;
 	--link-hover-color: #fff;
-	font-family: 'Roboto Mono';
+	font-family: 'Roboto Mono', monospace;
 	/* , monospace; */
 	font-weight: 500;
 	color: #fff;
