@@ -43,7 +43,7 @@
 		<div class="content-wrap">
 			<div class="mine content--layout content--layout-1">
 				<img class="my_avatar" src="img/avatar.png" alt="Avatar">
-				<div class="my_name">Tianyu Gao</div>
+				<div class="my_name"> Tianyu Gao </a></div>
 				<div class="my-description">
 					<p>
 						Tianyu is now an incoming Electronic Information master's student at Inner Mongolia University.
@@ -143,9 +143,25 @@
 			<div class="my-description">
 				<div class="my_contact-title">Contact Me</div>
 				<div class="my-contact-description">
+					<p> <a href="https://hermit.world" target="_blank"> <i class="fa-solid fa-blog"></i> Blog </a>
+						<a href="https://github.com/HERMIT-OuO" target="_blank"> <i class="fa-brands fa-github"></i>
+							Github </a>
+						<a href="https://t.me/HERMITOUO" target="_blank"> <i class="fa-brands fa-telegram"></i> Telegram
+						</a>
+						<a href="mailto:hermitouo@outlook.com" target="_blank"> <i class="fa-solid fa-envelope"></i> Email
+						</a>
+					</p>
+
+					<!-- <p>
+						<a href="https://t.me/HERMITOUO" target="_blank"> <i class="fa-brands fa-telegram"></i> Telegram
+						</a>
+						<a href="mailto:hermitouo@outlook.com" target="_blank"> <i class="fa-solid fa-at"></i> Email
+						</a>
+					</p> -->
+					<!-- <p>Blog: <a href="https://hermit.world" target="_blank"> HERMITOUO </a></p>
 					<p>Github: <a href="https://github.com/HERMIT-OuO" target="_blank"> HERMITOUO</a></p>
 					<p>Telegram: <a href="https://t.me/HERMITOUO" target="_blank">+14066621125</a></p>
-					<p>Email: <a href="mailto:hermitouo@outlook.com" target="_blank">hermitouo@outlook.com</a> </p>
+					<p>Email: <a href="mailto:hermitouo@outlook.com" target="_blank">hermitouo@outlook.com</a> </p> -->
 
 
 				</div>
@@ -156,6 +172,7 @@
 	<script src="js/anime.min.js"></script>
 	<script src="js/scrollMonitor.js"></script>
 	<script src="js/demo2.js"></script>
+	<script src="https://kit.fontawesome.com/21023488a9.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
@@ -230,9 +247,23 @@
 	}
 
 	.my-contact-description {
-		font-size: 18px;
+		margin-top: 1rem;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+		font-size: 20px;
+		font-weight: bold;
 		text-align: center;
 	}
+
+	.my-contact-description a {
+		margin-left: 1rem;
+		margin-right: 1rem;
+	}
+
 
 	.mine-work-block {
 		display: flex;
