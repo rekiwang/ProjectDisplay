@@ -143,15 +143,13 @@
 			<div class="my-description">
 				<div class="my_contact-title">Contact Me</div>
 				<div class="my-contact-description">
-					<p> <a href="https://hermit.world" target="_blank"> <i class="fa-solid fa-blog"></i> Blog </a>
+						<a href="https://hermit.world" target="_blank"> <i class="fa-solid fa-blog"></i> Blog </a>
 						<a href="https://github.com/HERMIT-OuO" target="_blank"> <i class="fa-brands fa-github"></i>
 							Github </a>
 						<a href="https://t.me/HERMITOUO" target="_blank"> <i class="fa-brands fa-telegram"></i> Telegram
 						</a>
 						<a href="mailto:hermitouo@outlook.com" target="_blank"> <i class="fa-solid fa-envelope"></i> Email
 						</a>
-					</p>
-
 					<!-- <p>
 						<a href="https://t.me/HERMITOUO" target="_blank"> <i class="fa-brands fa-telegram"></i> Telegram
 						</a>
@@ -162,8 +160,6 @@
 					<p>Github: <a href="https://github.com/HERMIT-OuO" target="_blank"> HERMITOUO</a></p>
 					<p>Telegram: <a href="https://t.me/HERMITOUO" target="_blank">+14066621125</a></p>
 					<p>Email: <a href="mailto:hermitouo@outlook.com" target="_blank">hermitouo@outlook.com</a> </p> -->
-
-
 				</div>
 			</div>
 		</div>
@@ -250,7 +246,7 @@
 		margin-top: 1rem;
 
 		display: flex;
-		flex-direction: column;
+		flex-direction: row;
 		justify-content: center;
 		align-items: center;
 
@@ -291,6 +287,12 @@
 
 	.mine-work-code {
 		margin-top: 1rem;
+	}
+
+	@media (min-width: 992px) and (max-width: 1200px) {
+		.my_contact-title {
+			font-size: 70px;
+		}
 	}
 
 	@media (min-width: 768px) and (max-width: 991px) {
@@ -356,6 +358,10 @@
 
 		.mine-work-img-phone {
 			width: 85%;
+		}
+
+		.my-contact-description {
+			font-size: 16px;
 		}
 	}
 </style>
